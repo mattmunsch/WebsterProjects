@@ -1,0 +1,30 @@
+body {
+      margin-left:15%;
+      margin-right:15%;
+      margin-top:10%;
+      }
+
+body.happygilmore {
+        background-color: #282425;
+        color: #6177C2;
+        }
+a.happygilmore {
+        color: #AC3747;
+        }
+
+
+a.img {
+           float:right;
+           }
+p.summary {
+            font-size:20px;
+            }
+
+p.quote {
+        text-align:center;
+        }
+
+footer {
+        color:inherit;
+        text-align:center
+        }
