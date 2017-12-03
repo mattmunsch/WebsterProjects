@@ -1,0 +1,36 @@
+body {
+        margin-left:15%;
+        margin-right:15%;
+        margin-top:10%;
+        background-color: #D3E3F1;
+        color: #20658D;
+      }
+
+h1   {font-size: x-large;}
+
+input[type=text],input[type=button], input[type=submit], input[type=reset] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #20658D;
+    color: white;
+    font-color: white;
+    font-size: large;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+::placeholder {
+    color: lightgrey;
+}
