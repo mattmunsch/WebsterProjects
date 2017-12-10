@@ -1,0 +1,103 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, rgb(94, 94, 94), #ccc);
+}
+
+body {
+    padding-top: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    background-image: linear-gradient(to right rgb(94, 94, 94), white);
+    color: black;
+}
+
+h1 {
+    font-size: 6vw;
+    text-shadow: 1px 1px 2px rgb(8, 43, 109);
+}
+
+img.home {
+    width: 20vw;
+    filter: grayscale(80%);
+    border-radius: 40px;
+    float: right;
+    padding: 20px;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li.nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(8, 43, 109);
+}
+
+div.main {
+    display: inline-block;
+    padding: 20px;
+    font-size: 2vw;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.button-area-line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+a.buttons {
+     background: rgb(8, 43, 109);
+     padding: 40px;
+     font-size: 2vw;
+     margin: 20px;
+     color: white;
+     text-decoration: none;
+     flex-grow: 1;
+     text-align: center;
+     border-radius: 3px;
+   }
+
+a.buttons:hover   {
+    background-color: rgb(34, 34, 34);
+}
+
+div.footer {
+    position: absolute;
+    width: 80%;
+    top: 98%;
+    bottom: 100%;
+    text-align: center;
+    display: block;
+    color: grey;
+}
